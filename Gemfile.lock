@@ -74,7 +74,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    minitest (5.22.2)
+    minitest (5.22.3)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
@@ -88,7 +88,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.6)
-    roda (3.77.0)
+    roda (3.78.0)
       rack
     rouge (3.30.0)
     serbea (1.0.1)

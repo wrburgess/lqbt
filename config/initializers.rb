@@ -3,7 +3,7 @@ Bridgetown.configure do |config|
   # `bridgetown.config.yml`. For example:
   #
   # permalink "simple"
-  # timezone "America/Los_Angeles"
+  # timezone "America/Chicago"
   #
   # You can also modify options on the configuration object directly, like so:
   #
