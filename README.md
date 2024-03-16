@@ -19,6 +19,8 @@ Welcome to your new Bridgetown website! You can update this README file to provi
 - [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
 - [Node](https://nodejs.org)
 - [Yarn](https://yarnpkg.com)
+  - Update yarn: `yarn set version berry`
+  - Add outdated plugin: `yarn plugin import https://mskelton.dev/yarn-outdated/v4`
 
 ## Install
 
