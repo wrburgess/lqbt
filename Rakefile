@@ -47,3 +47,7 @@ end
 #     say_status :rake, "I'm a Rake tast =) #{site.config.url}"
 #   end
 # end
+
+task "assets:precompile" do
+  exec("bridgetown build")
+end
