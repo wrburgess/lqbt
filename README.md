@@ -55,3 +55,5 @@ bin/bridgetown console
 
 > Read [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment)
 > Read [Bridgetown Deployment to Github Pages](https://www.bridgetownrb.com/docs/deployment#github-pages)
+
+## Deployment to Heroku
