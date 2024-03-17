@@ -1184,7 +1184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2, glob@npm:^10.3.10":
+"glob@npm:10.3.10, glob@npm:^10.2.2, glob@npm:^10.3.10":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -1386,7 +1386,7 @@ __metadata:
     bootstrap: "npm:5.3.3"
     bootstrap-icons: "npm:1.11.3"
     esbuild: "npm:0.20.2"
-    glob: "npm:^10.3.10"
+    glob: "npm:10.3.10"
     postcss: "npm:8.4.35"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-import: "npm:16.0.1"
