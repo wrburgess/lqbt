@@ -36,5 +36,3 @@ gem 'puma', '6.4.2'
 
 # Or for faster parsing of HTML-only resources via Inspectors, use Nokolexbor:
 # gem 'nokolexbor', '~> 0.4'
-
-gem 'rack-contrib', '2.4.0'

@@ -56,6 +56,13 @@ bin/bridgetown console
 > Read [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment)
 > Read [Bridgetown Deployment to Github Pages](https://www.bridgetownrb.com/docs/deployment#github-pages)
 
-## Deployment to Heroku
+## Setup and Deployment to Heroku
 
-# Trying nginx
+### Create staging app
+
+* Add staging remote: `git remote add staging https://git.heroku.com/[app-name].git`
+* Add buildpacks in order: `heroku/nodejs`, `heroku/ruby`, `https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/nginx.tgz`
+* Add env variable: `NODE_ENV=development` _prevents devDependencies pruning_
+* Add `config/nginx.config.erb` file with these [specs](https://github.com/heroku/heroku-buildpack-nginx/blob/main/config/nginx-static.conf.erb)
+* In the `nginx.config.erb` file change the `root /app/dist;` to `root /app/output;` _around line 51_
+* Add a `Procfile` with `web: bin/start-nginx-static` instruction
