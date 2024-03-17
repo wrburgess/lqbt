@@ -1,5 +1,0 @@
-#!/bin/bash
-set -e
-mkdir -p logs
-echo "Starting nginx"
-exec nginx -p . -c config/nginx.conf.erb
