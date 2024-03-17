@@ -1,9 +1,7 @@
-require 'rack/contrib/try_static'
-require 'rack/contrib/not_found'
+# This file is used by Rack-based servers during the Bridgetown boot process.
 
-use Rack::TryStatic,
-  :root => "output",
-  :urls => %w[/],
-  :try => ['.html', 'index.html', '/index.html']
+require "bridgetown-core/rack/boot"
 
-run Rack::NotFound.new('output/404.html')
+Bridgetown::Rack.boot
+
+run RodaApp.freeze.app # see server/roda_app.rb
