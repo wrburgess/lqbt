@@ -1,5 +1,8 @@
 {
-  "clean_urls": true,
+  "clean_urls": false,
   "https_only": true,
-  "root": "output/"
+  "root": "output/",
+  "routes": {
+    "/**": "index.html"
+  }
 }
