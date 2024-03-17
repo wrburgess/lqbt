@@ -59,4 +59,3 @@ bin/bridgetown console
 ## Deployment to Heroku
 
 # Trying nginx
-skip pruning again again
