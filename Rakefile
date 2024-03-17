@@ -49,5 +49,5 @@ end
 # end
 
 task "assets:precompile" do
-  exec("bridgetown build")
+  exec("bridgetown deploy")
 end
